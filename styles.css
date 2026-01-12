@@ -10,7 +10,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background: var(--bg-primary);
     color: var(--text-primary);
     cursor: default;
@@ -505,8 +505,10 @@ p {
 }
 
 .case-study-card h3 {
+    /* font-size: 1.75rem;
+    margin-bottom: 1rem; */
     font-size: 1.75rem;
-    margin-bottom: 1rem;
+    margin: 24px;
 }
 
 .case-study-card p {
